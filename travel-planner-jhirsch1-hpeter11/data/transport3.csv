@@ -1,0 +1,13 @@
+origin,destination,type,price,duration
+Alexandria,D.C.,bus,5,20
+D.C.,Alexandria,bus,5,20
+Alexandria,D.C.,train,15,10
+D.C.,Alexandria,bus,15,10
+Alexandria,Baltimore,bus,25,200
+Alexandria,Baltimore,plane,250,45
+D.C.,Baltimore,bus,20,60
+Baltimore,D.C.,bus,20,60
+D.C.,Baltimore,train,30,30
+Baltimore,D.C.,train,30,30
+Philadelphia,Baltimore,train,20,60
+Baltimore,Philadelphia,train,20,60

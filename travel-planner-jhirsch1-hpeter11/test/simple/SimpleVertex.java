@@ -1,0 +1,33 @@
+package test.simple;
+
+import src.IVertex;
+
+import java.util.HashSet;
+import java.util.Set;
+
+/**
+ * A class that models a simple vertex.
+ */
+public class SimpleVertex implements IVertex<SimpleEdge> {
+    public String id;
+    public Set<SimpleEdge> outgoingEdges = new HashSet<>();
+
+    public SimpleVertex(String id) {
+        this.id = id;
+    }
+
+    @Override
+    public String toString() {
+        return this.id;
+    }
+
+    @Override
+    public Set<SimpleEdge> getOutgoing() {
+        return outgoingEdges;
+    }
+
+    @Override
+    public void addOut(SimpleEdge outEdge) {
+        this.outgoingEdges.add(outEdge);
+    }
+}

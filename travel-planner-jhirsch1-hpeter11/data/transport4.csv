@@ -1,0 +1,5 @@
+origin,destination,type,price,duration
+Philadelphia,Baltimore,bus,1,1
+Baltimore,D.C.,train,1,1
+Philadelphia,Alexandria,bus,1,1
+Alexandria,D.C.,train,1,1
